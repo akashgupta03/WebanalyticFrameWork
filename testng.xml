@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="CleartripAutomation" verbose="1">
+
+    <listeners>
+        <listener class-name="com.listner.TestNgListener"/>
+    </listeners>
+    <parameter name="baseUrl" value="www.cleartrip.com"/>
+    <parameter name="browser" value="chrome"/>
+
+    <test name="Basic Smoke Tests" preserve-order="true">
+
+
+        <classes>
+            <class name="com.cleartrip.testcases.CleartripSignInTest"/>
+        </classes>
+
+
+    </test>
+</suite>
