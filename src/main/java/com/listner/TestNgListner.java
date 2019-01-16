@@ -1,6 +1,6 @@
 package com.listner;
 
-import com.cleartrip.setup.web.SeleniumDriverManager;
+import com.embibe.setup.web.SeleniumDriverManager;
 import com.relevantcodes.extentreports.LogStatus;
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;

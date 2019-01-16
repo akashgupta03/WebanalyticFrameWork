@@ -1,17 +1,17 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
-<suite name="CleartripAutomation" verbose="1">
+<suite name="EmbibeAutomation" verbose="1">
 
     <listeners>
-        <listener class-name="com.listner.TestNgListener"/>
+        <listener class-name="com.listner.TestNgListner"/>
     </listeners>
-    <parameter name="baseUrl" value="www.cleartrip.com"/>
+    <parameter name="baseUrl" value="www.embibe.com"/>
     <parameter name="browser" value="chrome"/>
 
     <test name="Basic Smoke Tests" preserve-order="true">
 
 
         <classes>
-            <class name="com.cleartrip.testcases.CleartripSignInTest"/>
+            <class name="com.embibe.testcases.embibeSearchTest"/>
         </classes>
 
 

@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/POMFrameWork.iml" filepath="$PROJECT_DIR$/POMFrameWork.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WebanalyticFrameWork.iml" filepath="$PROJECT_DIR$/WebanalyticFrameWork.iml" />
     </modules>
   </component>
 </project>
