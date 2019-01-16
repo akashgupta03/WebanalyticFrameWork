@@ -6,13 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="WebAnalysistFrameWork" />
-        <module name="WebanalyticFrameWork" />
+        <module name="com.practice.WebanalyticFrameWork" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="WebAnalysistFrameWork" target="7" />
-      <module name="WebanalyticFrameWork" target="7" />
+      <module name="com.practice.WebanalyticFrameWork" target="7" />
     </bytecodeTargetLevel>
   </component>
 </project>
